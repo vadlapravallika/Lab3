@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: teal;
+}
+
+.blinking {
+    animation: blink 1s infinite;
+    color: red;
+    font-size: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+
+/* Center-align input elements */
+input[type="text"], input[type="range"] {
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+}
+
+/* Style for disabled input elements */
+input[type="text"][disabled] {
+    background-color:yellowgreen;
+    color: white;
+}
+
+/* Styling for the container */
+.container {
+    display: inline-block;
+    color: brown;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: pink;
+}

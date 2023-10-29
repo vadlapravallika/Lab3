@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="german">
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ITMD 541 Lab-3 Pravallika Vadla</h2><br> 
+        <h3 class="blinking" id="blinkText">This lab will be presented in the German language.</h3>
+        <h1>Trinkgeldrechner</h1>
+        <form id="tipform">
+            <div class="form-group">
+                <label for="billTotal">Gesamtbetrag:</label>
+                <input type="text" id="billTotal" name="billTotal" placeholder="Geben Sie den Gesamtbetrag ein" required>
+            </div><br>
+            <div class="form-group">
+                <label for="tip">Trinkgeld:</label>
+                <input type="range" id="tip" min="0" max="100">
+            </div><br>
+            <div class="form-group">
+                <label for="tipPercentage">Trinkgeld-Prozentsatz:</label>
+                <input type="text" id="tipPercentage" disabled>
+            </div><br>
+            <div class="form-group">
+                <label for="tipAmount">Trinkgeldbetrag:</label>
+                <input type="text" id="tipAmount" name="tipAmount" disabled>
+            </div><br>
+            <div class="form-group">
+                <label for="totalBill">Gesamtbetrag mit Trinkgeld:</label>
+                <input type="text" id="totalBill" disabled>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
